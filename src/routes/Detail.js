@@ -14,7 +14,7 @@ function Detail() {
   };
   useEffect(() => {
     getMovie();
-  }, [loading]);
+  }, []);
   return (
     <div>
       {loading ? (
@@ -30,7 +30,7 @@ function Detail() {
             ))}
           </ul>
           <h4>rating : {movie.rating}</h4>
-          <img src={movie.background_image} alt={movie.title} />
+          <img src={movie.large_cover_image} alt={movie.title} />
         </div>
       )}
     </div>
