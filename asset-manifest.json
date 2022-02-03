@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-first-step/static/js/main.86eccfd2.js",
+    "main.js": "/react-first-step/static/js/main.e914c3cb.js",
     "index.html": "/react-first-step/index.html",
-    "main.86eccfd2.js.map": "/react-first-step/static/js/main.86eccfd2.js.map"
+    "main.e914c3cb.js.map": "/react-first-step/static/js/main.e914c3cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.86eccfd2.js"
+    "static/js/main.e914c3cb.js"
   ]
 }
