@@ -12,7 +12,6 @@ function Detail() {
     setMovie(json.data.movie);
     setLoading(false);
   };
-  console.log(movie);
   useEffect(() => {
     getMovie();
   }, []);
@@ -31,7 +30,7 @@ function Detail() {
             ))}
           </ul>
           <h4>{movie.rating}</h4>
-          <img src={movie.background_image} />
+          <img src={movie.background_image} alt={movie.title} />
         </div>
       )}
     </div>
